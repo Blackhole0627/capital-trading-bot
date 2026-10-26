@@ -1,0 +1,32 @@
+======================================================================
+ BACKTEST  US30  DAY
+ Periodo: 2023-01-03 -> 2026-10-22  (1388 días, 3.8 años)
+======================================================================
+ Saldo inicial              :    10,000.00
+ Saldo final                :    10,977.38
+ Beneficio neto             :       977.38  (+9.77%)
+ CAGR (rentab. anual)       :        2.48%
+ Drawdown máx. (capital)    :       566.99  (5.42%)
+ Drawdown máx. (cerrado)    :        5.13%
+----------------------------------------------------------------------
+ Operaciones                :     34   (8.9/año)  largos 34  cortos 0
+ Ganadoras / Perdedoras     :     23 / 11
+ Tasa de acierto            :     67.65%
+ Profit factor              :      1.63
+ Beneficio / pérdida bruta  :     2,531.23 / 1,553.85
+ Operación media            :        28.75
+ Ganancia / pérdida media   :       110.05 / -141.26
+ Mayor ganancia / pérdida   :       244.58 / -455.17
+ Máx. pérdidas consecutivas :      3
+ Velas medias en mercado    :       3.1
+ Salidas SL/TP/señal/tiempo :      4 / 0 / 30 / 0
+ Financiación pagada        :       325.00
+----------------------------------------------------------------------
+ Estrategia: Reversión a la media: RSI2 < 10 por encima de SMA200, salida cierre > SMA5 / 10 velas, stop 3.0 x ATR14
+ Tamaño: 100% del saldo por posición; límite de pérdida diaria 5.0%, stop por drawdown 25.0%
+ Costes: spread 2.0, financiación 0.02%/día, comisión 0.0
+======================================================================
+ G/P por año:
+   2024       15.11
+   2025      526.54
+   2026      435.73

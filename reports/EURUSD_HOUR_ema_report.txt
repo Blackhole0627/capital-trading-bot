@@ -1,0 +1,31 @@
+==================================================================
+ BACKTEST  EURUSD  HOUR
+ Period: 2024-01-08 -> 2026-10-22  (1018 days, 2.8 years)
+==================================================================
+ Initial balance        :    10,000.00
+ Final balance          :     8,988.86
+ Net profit             :    -1,011.14  (-10.11%)
+ CAGR                   :       -3.75%
+ Max drawdown (equity)  :     1,691.43  (15.84%)
+ Max drawdown (closed)  :       15.71%
+------------------------------------------------------------------
+ Trades                 :    102   (36.6/year)  long 49  short 53
+ Wins / Losses          :     36 / 66
+ Win rate               :     35.29%
+ Profit factor          :      0.84
+ Gross profit / loss    :     5,296.69 / 6,307.83
+ Avg trade              :        -9.91
+ Avg win / avg loss     :       147.13 / -95.57
+ Largest win / loss     :       155.64 / -108.65
+ Max consecutive losses :      8
+ Avg candles held       :      12.4
+ Exits SL/TP/signal/time:     56 / 36 / 10 / 0
+ Spread+financing paid  :         0.00 (financing only)
+------------------------------------------------------------------
+ Strategy: EMA trend: EMA 20/50 cross, trend EMA 200, RSI14 filter, stop 2.0 x ATR14, TP 3.0 x ATR, exit on opposite signal
+ Sizing: 1.0% risk per trade; daily loss limit 3.0%, max DD stop 15.0%
+ Costs: spread 0.0001, financing 0.0%/day, commission 0.0
+==================================================================
+ Yearly P&L:
+   2024      172.08
+   2025   -1,183.22

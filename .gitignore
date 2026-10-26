@@ -1,0 +1,8 @@
+config.json
+logs/
+recordings/
+build/
+dist/
+__pycache__/
+*.pyc
+.env

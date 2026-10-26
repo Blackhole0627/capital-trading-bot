@@ -1,0 +1,32 @@
+======================================================================
+ BACKTEST  GOLD  HOUR
+ Periodo: 2024-05-31 -> 2026-10-22  (874 días, 2.4 años)
+======================================================================
+ Saldo inicial              :    10,000.00
+ Saldo final                :    10,997.42
+ Beneficio neto             :       997.42  (+9.97%)
+ CAGR (rentab. anual)       :        4.05%
+ Drawdown máx. (capital)    :     1,281.83  (11.07%)
+ Drawdown máx. (cerrado)    :       10.57%
+----------------------------------------------------------------------
+ Operaciones                :    128   (53.5/año)  largos 71  cortos 57
+ Ganadoras / Perdedoras     :     51 / 77
+ Tasa de acierto            :     39.84%
+ Profit factor              :      1.14
+ Beneficio / pérdida bruta  :     7,982.33 / 6,984.91
+ Operación media            :         7.79
+ Ganancia / pérdida media   :       156.52 / -90.71
+ Mayor ganancia / pérdida   :       169.45 / -115.85
+ Máx. pérdidas consecutivas :      8
+ Velas medias en mercado    :      14.1
+ Salidas SL/TP/señal/tiempo :     50 / 51 / 27 / 0
+ Financiación pagada        :         0.00
+----------------------------------------------------------------------
+ Estrategia: Tendencia EMA: cruce EMA 20/50, tendencia EMA 200, filtro RSI14, stop 2.0 x ATR14, objetivo 3.0 x ATR, salida con señal contraria
+ Tamaño: 1.0% de riesgo por operación; límite de pérdida diaria 3.0%, stop por drawdown 15.0%
+ Costes: spread 0.4, financiación 0.0%/día, comisión 0.0
+======================================================================
+ G/P por año:
+   2024      167.89
+   2025      798.89
+   2026       30.64

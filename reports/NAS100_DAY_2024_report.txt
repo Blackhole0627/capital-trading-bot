@@ -1,0 +1,33 @@
+======================================================================
+ BACKTEST  NAS100  DAY
+ Periodo: 2023-01-03 -> 2026-10-22  (1388 días, 3.8 años)
+======================================================================
+ Saldo inicial              :    10,000.00
+ Saldo final                :    12,388.14
+ Beneficio neto             :     2,388.14  (+23.88%)
+ CAGR (rentab. anual)       :        5.80%
+ Drawdown máx. (capital)    :       806.79  (6.56%)
+ Drawdown máx. (cerrado)    :        5.74%
+----------------------------------------------------------------------
+ Operaciones                :     35   (9.2/año)  largos 35  cortos 0
+ Ganadoras / Perdedoras     :     26 / 9
+ Tasa de acierto            :     74.29%
+ Profit factor              :      2.69
+ Beneficio / pérdida bruta  :     3,805.15 / 1,417.01
+ Operación media            :        68.23
+ Ganancia / pérdida media   :       146.35 / -157.45
+ Mayor ganancia / pérdida   :       329.90 / -527.51
+ Máx. pérdidas consecutivas :      2
+ Velas medias en mercado    :       3.1
+ Salidas SL/TP/señal/tiempo :      1 / 0 / 34 / 0
+ Financiación pagada        :       342.50
+----------------------------------------------------------------------
+ Estrategia: Reversión a la media: RSI2 < 10 por encima de SMA200, salida cierre > SMA5 / 10 velas, stop 3.0 x ATR14
+ Tamaño: 100% del saldo por posición; límite de pérdida diaria 5.0%, stop por drawdown 25.0%
+ Costes: spread 1.5, financiación 0.02%/día, comisión 0.0
+======================================================================
+ G/P por año:
+   2023       47.68
+   2024    1,540.31
+   2025      410.75
+   2026      389.41

@@ -1,0 +1,44 @@
+{
+  "api": {
+    "demo": true,
+    "api_key": "YOUR_API_KEY",
+    "identifier": "your-login-email@example.com",
+    "password": "YOUR_API_KEY_PASSWORD"
+  },
+  "symbols": ["GOLD", "EURUSD"],
+  "timeframe": "HOUR_4",
+  "poll_seconds": 60,
+  "candles_to_fetch": 400,
+  "strategy": {
+    "type": "ema_trend",
+    "atr_period": 14,
+    "atr_sl": 2.0,
+    "atr_tp": 3.0,
+    "max_hold_bars": 0,
+    "trailing_stop": false,
+    "trade_hours_utc": [0, 24],
+    "allow_long": true,
+    "allow_short": true,
+    "ema_fast": 20,
+    "ema_slow": 50,
+    "ema_trend": 200,
+    "rsi_filter_period": 14,
+    "rsi_max_long": 70,
+    "rsi_min_short": 30,
+    "exit_on_opposite": true
+  },
+  "risk": {
+    "size_mode": "risk",
+    "risk_per_trade_pct": 1.0,
+    "exposure_pct": 100,
+    "fixed_size": 1.0,
+    "daily_loss_limit_pct": 3.0,
+    "max_drawdown_pct": 15.0,
+    "max_open_positions": 2,
+    "max_size": 100000,
+    "value_per_point": {}
+  },
+  "log_path": "logs/bot.log",
+  "trades_csv": "logs/trades.csv",
+  "state_path": "logs/state.json"
+}

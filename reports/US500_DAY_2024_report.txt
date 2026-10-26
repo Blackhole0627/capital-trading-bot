@@ -1,0 +1,33 @@
+======================================================================
+ BACKTEST  US500  DAY
+ Periodo: 2023-01-03 -> 2026-10-22  (1388 días, 3.8 años)
+======================================================================
+ Saldo inicial              :    10,000.00
+ Saldo final                :    11,460.84
+ Beneficio neto             :     1,460.84  (+14.61%)
+ CAGR (rentab. anual)       :        3.65%
+ Drawdown máx. (capital)    :       592.91  (5.09%)
+ Drawdown máx. (cerrado)    :        4.01%
+----------------------------------------------------------------------
+ Operaciones                :     35   (9.2/año)  largos 35  cortos 0
+ Ganadoras / Perdedoras     :     27 / 8
+ Tasa de acierto            :     77.14%
+ Profit factor              :      2.14
+ Beneficio / pérdida bruta  :     2,737.31 / 1,276.46
+ Operación media            :        41.74
+ Ganancia / pérdida media   :       101.38 / -159.56
+ Mayor ganancia / pérdida   :       239.56 / -400.58
+ Máx. pérdidas consecutivas :      2
+ Velas medias en mercado    :       2.9
+ Salidas SL/TP/señal/tiempo :      2 / 0 / 33 / 0
+ Financiación pagada        :       323.81
+----------------------------------------------------------------------
+ Estrategia: Reversión a la media: RSI2 < 10 por encima de SMA200, salida cierre > SMA5 / 10 velas, stop 3.0 x ATR14
+ Tamaño: 100% del saldo por posición; límite de pérdida diaria 5.0%, stop por drawdown 25.0%
+ Costes: spread 0.6, financiación 0.02%/día, comisión 0.0
+======================================================================
+ G/P por año:
+   2023     -400.58
+   2024    1,016.33
+   2025      576.59
+   2026      268.50

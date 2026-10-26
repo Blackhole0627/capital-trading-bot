@@ -1,0 +1,48 @@
+{
+  "api": {
+    "demo": true,
+    "api_key": "YOUR_API_KEY",
+    "identifier": "your-login-email@example.com",
+    "password": "YOUR_API_KEY_PASSWORD"
+  },
+  "symbols": ["US500", "US100", "US30"],
+  "timeframe": "DAY",
+  "poll_seconds": 60,
+  "candles_to_fetch": 300,
+  "strategy": {
+    "type": "mean_reversion",
+    "atr_period": 14,
+    "atr_sl": 3.0,
+    "atr_tp": 0,
+    "max_hold_bars": 10,
+    "trailing_stop": false,
+    "trade_hours_utc": [0, 24],
+    "allow_long": true,
+    "allow_short": false,
+    "rsi_period": 2,
+    "rsi_entry": 10,
+    "sma_trend": 200,
+    "sma_exit": 5,
+    "ema_fast": 20,
+    "ema_slow": 50,
+    "ema_trend": 200,
+    "rsi_filter_period": 14,
+    "rsi_max_long": 70,
+    "rsi_min_short": 30,
+    "exit_on_opposite": true
+  },
+  "risk": {
+    "size_mode": "notional",
+    "exposure_pct": 100,
+    "risk_per_trade_pct": 1.0,
+    "fixed_size": 1.0,
+    "daily_loss_limit_pct": 5.0,
+    "max_drawdown_pct": 25.0,
+    "max_open_positions": 3,
+    "max_size": 100000,
+    "value_per_point": {}
+  },
+  "log_path": "logs/bot.log",
+  "trades_csv": "logs/trades.csv",
+  "state_path": "logs/state.json"
+}
